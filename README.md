@@ -1,2 +1,2 @@
 # AudioNotes
-Text to Speech project using Generative Ai
+Speech to Text project using Generative Ai
