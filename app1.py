@@ -11,7 +11,7 @@ import scipy.io.wavfile as wav
 # Load the Whisper model (use "base" or "small" for better speed)
 @st.cache_resource
 def load_model():
-    return whisper.load_model("base")
+    return whisper.load_model("turbo")
 
 model = load_model()
 
