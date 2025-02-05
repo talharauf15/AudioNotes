@@ -5,6 +5,8 @@
 
 AudioNotes is a user-friendly web application for converting speech in audio files to text using OpenAI's Whisper speech recognition model.
 
+![image](https://github.com/user-attachments/assets/3525f0de-d234-49f4-9b9b-e490dbb8db5e)
+
 
 ## ✨ Features
 
@@ -94,7 +96,7 @@ Contributions are welcome! Follow these steps:
 
 ## ⚠️ Note
 
-- The base Whisper model has moderate accuracy. Consider using larger models for production.
+- The small Whisper model has moderate accuracy. Consider using larger models for production.
 - Audio files are processed locally (no cloud storage).
 - Maximum file size is limited by Streamlit's uploader constraints.
 
