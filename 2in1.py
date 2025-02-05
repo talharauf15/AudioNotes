@@ -13,7 +13,7 @@ st.set_page_config(page_title="AudioNotes", page_icon="🎤", layout="wide")
 # Load the Whisper model (cached)
 @st.cache_resource
 def load_model():
-    return whisper.load_model("base")  # Changed to standard "base" model ("turbo" isn't valid)
+    return whisper.load_model("small")  # Changed to standard "base" model ("turbo" isn't valid)
 
 model = load_model()
 
