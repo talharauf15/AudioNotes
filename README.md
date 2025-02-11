@@ -26,7 +26,7 @@ AudioNotes is a user-friendly web application for converting speech in audio fil
 
 **Install FFmpeg:**
 ```bash
-# Ubuntu/Debian
+# Ubuntu
 sudo apt update && sudo apt install ffmpeg
 
 # MacOS
